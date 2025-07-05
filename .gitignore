@@ -1,41 +1,67 @@
-# Prerequisites
-*.d
+# Build folders (Debug, Release, etc.)
+[Bb]in/
+[Oo]bj/
+x64/
+ipch/
+*.opensdf
+*.sdf
+*.cache
+*.db
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.VC.db
+*.VC.VC.opendb
 
-# Precompiled Headers
-*.gch
-*.pch
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
 
-# Linker files
+# Visual Studio Code settings (optional)
+.vscode/
+
+.vs/
+
+# Generated files
+*.log
+*.tlog
+*.lastbuildstate
 *.ilk
-
-# Debugger Files
+*.idb
 *.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+*.dll
+*.lib
+*.exp
 
-# debug information files
-*.dwo
+# Installer logs and packages
+*.msi
+*.msm
+*.msp
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Crash dumps
+*.dmp
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Others
+*.zip
+*.7z
+
+# Ignore build output in root if exists
+/Debug/
+/Release/

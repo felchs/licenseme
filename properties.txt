@@ -1,0 +1,2 @@
+read_privilleges=consult
+write_privilleges=write
